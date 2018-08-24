@@ -1,0 +1,287 @@
+body {
+  margin: 0;
+  font-family: "Cuprum", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.page-header {
+  background-color: #f3f7f8; /*#f3f7f8*/
+}
+
+.header-top {
+  width: 100%;
+  min-height: 42px;
+  background-color: #293449;
+  color: #ffffff;
+}
+
+.header-top a {
+  color: inherit;
+}
+
+.order a{
+  background-color: #63a63e;
+}
+
+.description {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ee3643;
+}
+
+.phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.enter a,
+.register a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.main-navigation {
+  background-color: #32425c;
+}
+
+.main-navigation ul {
+  list-style: none;
+}
+
+.main-navigation a {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.feature-item p {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.feature-item a {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.materials {
+  background-color: #ffbf47;
+}
+
+.instruments {
+  background-color: #3bbce3;
+}
+
+.equipment {
+  background-color: #dc91d8;
+}
+
+.discount {
+  background-color: #8ed78f;
+}
+
+.free-delivery {
+  background-color: #ffc047;
+}
+
+.slide {
+  background-color: #b9a998;
+}
+
+.slide h2 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.slide p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.slide a {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ee3643;
+}
+
+.popular-items .wrapper,
+.popular-brands .wrapper{
+  background-color: #f9f5f0;
+}
+
+.popular-items h2,
+.popular-brands h2 {
+  color: #32425c;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.button {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  background-color: #ee3643;
+}
+
+.popular-items h3 {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.price b:first-child:not(:last-child) {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-decoration: line-through;
+  color: #a9a9a9;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.price-button {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+  background-color: #ee3643;
+}
+
+.services {
+  background-color: #f4f7f9;
+}
+
+.services h2 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.services-header p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.services-items {
+  font-weight: bold;
+  color: #32425c;
+  font-size: 21px;
+  line-height: 30px;
+  list-style: none;
+}
+
+.services-slider-items h3 {
+  color: #32425c;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.services-slider-items p {
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #32425c;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.info-about h2 {
+  color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.info p {
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #32425c;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.info-about ul {
+  list-style: none;
+  color: #000000;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.write-us label {
+  color: #000000;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.footer {
+  background-color: #32425c;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer-top a {
+  color: #f3f7f9;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-middle a {
+  color: #ffd180;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-middle p {
+  color: #f3f7f9;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer-bottom {
+  background-color: #293449;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-bottom b,
+.footer-bottom a:last-child {
+  color: #ffd180;
+}

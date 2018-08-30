@@ -38,8 +38,22 @@ html {
   color: inherit;
 }
 
+.bookmarks a:active,
+.basket a:active {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .order a{
   background-color: #63a63e;
+}
+
+.order:hover a {
+  background-color: #5fbb2d;
+}
+
+.order a:active {
+  color: rgba(255, 255, 255, 0.51);
+  background-color: #518534;
 }
 
 .basket-full {
@@ -75,6 +89,17 @@ html {
   text-decoration: underline;
 }
 
+.users-orders a:hover,
+.personal-area a:hover {
+  color: #ee3643;
+}
+
+.users-orders a:active,
+.personal-area a:active,
+.users-name a:active{
+  color: rgba(50, 66, 92, 0.3);
+}
+
 .phone {
   font-size: 21px;
   line-height: 21px;
@@ -92,6 +117,17 @@ html {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
+  background-color: #ffffff;
+}
+
+.enter a:hover,
+.register a:hover {
+  color: #ee3643;
+}
+
+.enter a:active,
+.register a:active {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .main-navigation {
@@ -106,6 +142,10 @@ html {
   color: #ffffff;
   font-size: 17px;
   line-height: 17px;
+}
+
+.main-navigation a:active {
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .breadcrumbs ul {
@@ -183,6 +223,16 @@ html {
   border-bottom: 1px dotted #ee3643;
 }
 
+.sort-panel a:hover {
+  color: #000000;
+  border-bottom: 1px solid #ee3643;
+}
+
+.sort-panel a:active {
+  color: #ee3643;
+  border-bottom: none;
+}
+
 .feature-items {
   list-style: none;
 }
@@ -199,6 +249,14 @@ html {
   font-size: 14px;
   line-height: 18px;
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.feature-item a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.feature-item a:active {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .materials {
@@ -246,6 +304,14 @@ html {
   background-color: #ee3643;
 }
 
+.slide a:hover {
+  background-color: #ca2c37;
+}
+
+.slide a:active {
+  background-color: #ba2732;
+}
+
 .popular-items .wrapper,
 .popular-brands .wrapper{
   background-color: #f9f5f0;
@@ -276,6 +342,14 @@ html {
   color: #000000;
   font-size: 18px;
   line-height: 20px;
+}
+
+.items-list img {
+  background-color: #e7e9e9;
+}
+
+.brands-list img {
+  background-color: #e7e9e9;
 }
 
 .product-items ul {
@@ -420,6 +494,10 @@ html {
   line-height: 24px;
 }
 
+.info-contacts img {
+  background-color: #e7e9e9;
+}
+
 .footer {
   background-color: #32425c;
 }
@@ -434,10 +512,29 @@ html {
   line-height: 24px;
 }
 
+.footer-top a:hover {
+  color: #f3f7f9;
+  text-decoration: underline;
+}
+
+.footer-top a:active {
+  color: rgba(241, 245, 247, 0.5);
+  text-decoration: none;
+}
+
 .footer-middle a {
   color: #ffd180;
   font-size: 18px;
   line-height: 24px;
+}
+
+.footer-middle a:hover {
+  text-decoration: underline;
+}
+
+.footer-middle a:active {
+  color: rgba(255, 209, 128, 0.5);
+  text-decoration: none;
 }
 
 .footer-middle p {
@@ -453,7 +550,24 @@ html {
   line-height: 18px;
 }
 
-.footer-bottom b,
-.footer-bottom a:last-child {
+.social-networks a {
+  background-color: #212a3a;
+}
+
+.social-networks a:hover {
+  background-color: #ee3643;
+}
+
+.feedback a {
   color: #ffd180;
+}
+
+.feedback a:hover {
+  color: #ffd180;
+  text-decoration: underline;
+}
+
+.feedback a:active {
+  color: #ee3643;
+  text-decoration: none;
 }
